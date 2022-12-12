@@ -302,7 +302,7 @@ public class AddressBook {
         public static void main(String[] args) {
 
             int choice = 10, count = 0;
-            System.out.println("Welcome tp AddressBook system");
+            System.out.println("Welcome in AddressBook");
             AddressBook add = new AddressBook();
             Scanner sc = new Scanner(System.in);
             ArrayList<Data> contact = new ArrayList<Data>();
