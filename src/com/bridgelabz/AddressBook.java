@@ -177,3 +177,28 @@ public static void edit(ArrayList<Data> arr){
         }
         }
 }
+
+
+public class AddressBook {
+    public static void main(String[] args) {
+        System.out.println("Welcome to Address Book system");
+        AddressBookMain obj = new AddressBookMain();
+        obj.setName("joseph");
+        obj.setSurname("xaviour");
+        obj.setAddress("prestige neptune courtyard, marine drive");
+        obj.setCity("cochin");
+        obj.setState("kerala");
+        obj.setContactNumber("8113090698");
+        obj.setEmail("bhebhwebf@gmail.com");
+
+        System.out.println("Name: " + obj.getName());
+        System.out.println("Surname: " + obj.getSurname());
+        System.out.println("Address: " + obj.getAddress());
+        System.out.println("City: " + obj.getCity());
+        System.out.println("State: " + obj.getState());
+        System.out.println("ContactNumber: " + obj.getContactNumber());
+        System.out.println("Email: " + obj.getEmail());
+
+
+    }
+}
