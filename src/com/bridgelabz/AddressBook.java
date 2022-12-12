@@ -202,3 +202,26 @@ public class AddressBook {
 
     }
 }
+
+
+public class AddressBook {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        AddressBookMain addBook = new AddressBookMain();
+        String start = "start";
+
+        System.out.println("Welcome to Address Book system");
+        while(start.equals("start")){
+            System.out.println("to add address press 1, to display address press 2");
+            int choice = sc.nextInt();
+            if(choice==1)
+                addBook.saveAddress();
+            else if (choice==2)
+                addBook.showMyAddress();
+            else
+                System.out.println("invalid option entered ");
+        }
+
+    }
+}
